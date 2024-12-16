@@ -1,18 +1,18 @@
 # Django App API
 
 ## Setup Instructions
-1. Install dependencies:
+1. Install dependencies:<br>
   
    pip install django djangorestframework
    
-2. Run migrations:
-python manage.py makemigrations
+2. Run migrations:<br>
+python manage.py makemigrations<br>
 python manage.py migrate
 
-3.Start the server:
+3.Start the server:<br>
 python manage.py runserver
 
-4.Use the following endpoints:
-Add App: POST /api/add-app/
-Get App: GET /api/get-app/{id}/
-Delete App: DELETE /api/delete-app/{id}/
+4.Use the following endpoints:<br>
+Add App: POST /api/add-app/<br>
+Get App: GET /api/get-app/{id}/<br>
+Delete App: DELETE /api/delete-app/{id}/<br>
